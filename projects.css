@@ -1,0 +1,104 @@
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+    text-decoration: none;
+}
+a:active {
+    color:white;
+    text-decoration: none;
+}
+a:hover {
+    color: cyan;
+    text-decoration: none;
+}
+.proj a:link, .proj a:visited, .proj a:active, .proj a:hover {
+    color: white;
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+
+
+
+
+.opening {
+    color: white;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 200%;
+    font-family: Avenir;
+    background-color: black;
+}
+
+
+body {
+    background-color: black;
+    color: azure;
+    font-family: Avenir;
+
+}
+
+p{
+    color: blue;
+}
+
+.proj {
+    background-color: blue;
+
+}
+
+.projcontainer {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    min-height: 400px;
+    min-width: 300px;
+    background-color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.caption {
+    max-width: 200px;
+    background-color: blue;
+}
+
+.main-menu ul {
+  margin: 0 0 0 10%;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+}
+
+.main-menu ul li a {
+  padding: 20px;
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  background: #21263E;
+}
+
+.main-menu ul li ul {
+  display: none;
+}
+
+.main-menu ul li:hover ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-menu ul li:hover a {
+  color: #fff;
+}
