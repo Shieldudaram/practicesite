@@ -22,9 +22,8 @@ a:hover {
 .container {
     display: flex;
     margin-left: 15%;
-    margin-top: 5%;
+    margin-top: 15%;
     margin-right: 15%;
-    flex-wrap: wrap;
 }
 
 

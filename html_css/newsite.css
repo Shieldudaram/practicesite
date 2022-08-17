@@ -20,45 +20,77 @@ a:hover {
 body {
     background-image: url();
     background-size: cover;
-    background-color: lightcyan;
+    background-color: white;
     color: azure;
-    margin: 200px;
-    margin-top: 150px;
-    transform: translateY(-50%);
+    background-image: url("background.jpeg");
 
 }
 
-h1 {
+.opening {
     color: white;
-    background-color: deepskyblue;
     text-align: right;
     padding-right: 20px;
-    padding-top: 190px;
+    padding-top: 10px;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 200%;
+    font-family: Avenir;
 }
 
 h2 {
     font-size: 80px;
-    color: blue;
+    color: white;
     text-align: left;
-    background-color: aliceblue;
     margin-bottom: 0px;
+    margin-left: 15%;
+    font-family: Rockwell;
 
 }
 
 h3 {
-    font-size: 40px;
-    color: blue;
-    text-align: left;
-    background-color: aliceblue;
-    margin-top: 0px;
-}
-
-h4 {
-    color: blue;
     font-size: 80px;
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+        margin-left: 15%;
+    font-family: "Rockwell";
 }
-h5{
-    font-size: 25px;
-    color: blue;
+
+.job {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 35%;
+    font-family: Avenir;
 
 }
+
+.list1 {
+    color: white;
+    margin-top: 50px;
+  background-color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+    cursor: pointer;
+}
+
+.list1 a:link, .list1 a:visited, .list1 a:active, .list1 a:hover {
+    color: black;
+}
+
+#todobutton {
+    text-align: right;
+    margin-right: 20%;
+    margin-top: 10%;
+}
+
+.hello, .me {
+    display: flex;
+    align-items: center;
+    min-height: 200px;
+    font-size: 120px;
+    margin-left: 10%;
+
