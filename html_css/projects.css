@@ -101,9 +101,9 @@ p{
 .main-menu ul li a {
   padding: 20px;
   display: block;
-  color: #ddd;
+  color: white;
   text-decoration: none;
-  background: #21263E;
+  background: black;
 }
 
 .main-menu ul li ul {
@@ -116,5 +116,5 @@ p{
 }
 
 .main-menu ul li:hover a {
-  color: #fff;
+  color: white;
 }

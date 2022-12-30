@@ -82,14 +82,3 @@ h3 {
     margin-left: 10%;
 }
 
-.changelog, .changelog a:link, .changelog a:visited, .changelog a:active, .changelog a:hover{
-    color: white;
-    display: flex;
-    flex-direction: column;
-    margin-right: 10%;
-    margin-top: 50px;
-    margin-bottom: 0;
-    text-align: right;
-    text-decoration: none;
-    justify-content: flex-end;
-}
